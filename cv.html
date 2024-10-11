@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsayed Nasr - Digital Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex; /* استخدام الفليكس لتوزيع المحتوى */
+            flex-direction: column; /* ترتيب العناصر عمودياً */
+        }
+
+        header {
+            background-color: #7c4dff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex; /* توزيع المحتوى بين الأعمدة */
+            flex: 1; /* ملء المساحة المتبقية */
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 2; /* قسم المحتوى الرئيسي */
+        }
+
+        .cv {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1; /* قسم السيرة الذاتية */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #7c4dff;
+            color: white;
+            width: 100%;
+        }
+
+        h1, h2 {
+            color: #7c4dff;
+        }
+
+        .profile-pic-container {
+            display: flex;
+            justify-content: center; /* Center the image */
+            margin-bottom: 20px; /* Space below the image */
+        }
+
+        .profile-pic {
+            width: 130px; /* Reduced size */
+            height: 130px; /* Reduced size */
+            border-radius: 50%; /* Make it a circle */
+            border: 5px solid #7c4dff; /* Border color matching your theme */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+            object-fit: cover; /* Ensure the image covers the container */
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block; /* تحويل القائمة إلى عمودية على الشاشات الصغيرة */
+                margin: 5px 0;
+            }
+
+            .container {
+                flex-direction: column; /* عمود واحد على الشاشات الصغيرة */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elsayed Nasr</h1>
+        <p>Digital Marketing</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="profile-pic-container">
+                <img src="sayed.jpg" alt="Elsayed Nasr" class="profile-pic">
+            </div>
+            <p>
+                I am Elsayed Nasr, a Digital Marketing Specialist with a strong interest in business development. 
+                I have completed my studies in Management Information Systems and Computer Science, gaining extensive experience in sales and project management.
+            </p>
+            <p>
+                I focus on creating effective marketing strategies to enhance brand awareness and increase sales. 
+                During my time at various companies, I have developed strong skills in managing marketing campaigns and analyzing market data, which have contributed to achieving business objectives effectively.
+            </p>
+            <p>
+                I believe in the power of collaboration and teamwork, always striving to enhance my skills and stay updated with the latest trends in the marketing industry.
+                I am passionate about helping businesses achieve sustainable growth and deliver noticeable results.
+            </p>
+        </section>
+
+        <div class="cv">
+            <h2>CV</h2>
+            <h3>Education</h3>
+            <ul>
+                <li>Computer Science (2021-2024)</li>
+                <li>Management Information Systems (2020-2024)</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Writing</li>
+                <li>Social Media</li>
+                <li>Front End Development</li>
+                <li>Customer Service</li>
+                <li>Sales</li>
+            </ul>
+
+            <h3>Experience</h3>
+            <ul>
+                <li>Marketing for Remas Land Company (2020-2022)</li>
+                <li>Accountant at Taata Restaurant (2024)</li>
+                <li>Management in Mobile Shop (2022-2024)</li>
+            </ul>
+
+            <h3>Contact</h3>
+            <p>Phone: 00201017489634</p>
+            <p>Email: <a href="mailto:aponasr030@gmail.com">aponasr030@gmail.com</a></p>
+            <p>Address: zaqazig, dyarb negm, Sharqiyah, Egypt</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Elsayed Nasr. All rights reserved.</p>
+    </footer>
+</body>
+</html>
